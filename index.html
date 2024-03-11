@@ -1,0 +1,498 @@
+<!--
+ * @Author: Jon Barron
+ * @Date: 2019-05-11 22:15:22
+ * @LastEditors: chenjiawei
+ * @LastEditTime: 2023-11-05 15:33:25
+ -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<html>
+
+<head>
+
+    <!-- <meta name=viewport content="width=800"> -->
+    <meta name=viewport content="width=device-width">
+    <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
+    <style type="text/css">
+        /* Color scheme stolen from Sergey Karayev */
+        
+        a {
+            color: #1772d0;
+            /* color: #07889b; */
+            text-decoration: none;
+        }
+        
+        a:focus,
+        a:hover {
+            color: #e37222;
+            /* #f09228; */
+            text-decoration: none;
+        }
+        
+        body,
+        td,
+        th,
+        tr,
+        p,
+        a {
+            font-family: 'Lato', Verdana, Helvetica, sans-serif;
+            font-size: 16px;
+        }
+        
+        p.introduction {
+            line-height: 1.8;
+        }
+        
+        strong {
+            font-family: 'Lato', Verdana, Helvetica, sans-serif;
+            font-size: 16px;
+        }
+        
+        heading {
+            font-family: 'Lato', Verdana, Helvetica, sans-serif;
+            font-size: 22px;
+            color: #e37222;
+        }
+        
+        heading2 {
+            font-family: 'Lato', Verdana, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        
+        papertitle {
+            font-family: 'Lato', Verdana, Helvetica, sans-serif;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        
+        name {
+            font-family: 'Lato', Verdana, Helvetica, sans-serif;
+            font-size: 32px;
+        }
+        
+        .footer {
+            font-family: 'Lato', Verdana, Helvetica, sans-serif;
+            font-size: 14px;
+            opacity: 0.75;
+            color: #777;
+        }
+        
+        .one {
+            width: 160px;
+            height: 160px;
+            position: relative;
+        }
+        
+        .two {
+            width: 160px;
+            height: 160px;
+            position: absolute;
+            transition: opacity .2s ease-in-out;
+            -moz-transition: opacity .2s ease-in-out;
+            -webkit-transition: opacity .2s ease-in-out;
+        }
+        
+        .fade {
+            transition: opacity .2s ease-in-out;
+            -moz-transition: opacity .2s ease-in-out;
+            -webkit-transition: opacity .2s ease-in-out;
+        }
+        
+        span {
+            line-height: 1.5;
+        }
+        
+        span.highlight {
+            background-color: #ffffd0;
+        }
+        
+        span.artifact {
+            color: #6cb41b;
+            padding: 1px;
+        }
+        
+        span.underline {
+            border-bottom: 1px solid black;
+            padding-bottom: 1px;
+        }
+        
+        span.tldr {
+            color: #555555;
+        }
+        
+        em.highlight {
+            color: #e37222;
+        }
+    </style>
+    <link rel="icon" type="image/png" href="images/webicon.jpg">
+    <title>Jiawei Chen</title>
+    <!-- <meta name="description" content="I am a Ph.D. Candidate (from 2019.09) in the Chinese Information Processing Laboratory at the Institute of Software, Chinese Academy of Sciences, under the Supervision of Professor Xianpei Han. My research interest is Information Extraction and Retrieval-Augmented Language Models."> -->
+    <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/academicons.min.css">
+</head>
+
+<body>
+    <table width="960" border="0" align="center" cellspacing="0" cellpadding="0">
+        <tr>
+            <td>
+                <!-- Intro Begin -->
+                <table width="100%" align="left" border="0" cellspacing="0" cellpadding="12" style="table-layout:fixed;">
+                    <colgroup>
+                        <col span="1" style="width: 23%;">
+                        <col span="1" style="width: 77%;">
+                    </colgroup>
+                    <tr>
+                        <td valign="middle">
+                            <img src="images/photo.jpg" height="170px">
+                            <p align=left>
+                                <a href="data/cv.pdf" target="_blank"> <i class="ai ai-cv-square ai-2x"></i> </a> &nbsp;
+                                <a href="https://github.com/chenjiawei30" target="_blank"> <i class="fa fa-github-square fa-2x"></i> </a> &nbsp;
+                                <a href="https://www.semanticscholar.org/author/Jiawei-Chen/2115448879" target="_blank"> <i class="ai ai-semantic-scholar-square ai-2x"></i> </a> &nbsp;
+                                <a href="https://scholar.google.com/citations?user=E3uztpUAAAAJ" target="_blank"> <i class="ai ai-google-scholar-square ai-2x"></i> </a> &nbsp;
+                            </p>
+                        </td>
+                        <td valign="middle">
+                            <p align="left">
+                                <name>Jiawei Chen &nbsp; 陈嘉伟</name>
+                            </p>
+                            <p class="introduction">
+                                I am currently a master student in the Chinese Information Processing Laboratory at the Institute of Software, Chinese Academy of Sciences, under the Supervision of Professor Xianpei Han and Le Sun.
+                            </p>
+                            <p class="introduction">
+                                My research interest is Information Extraction and Retrieval-Augmented Language Models.
+                            </p>
+                            <p class="introduction">
+                                I plan to graduate in 2027.
+                            </p>
+
+                            <hr style="height:5px; visibility:hidden;" />
+
+                            <p class="introduction">Contact: <a href="mailto:chenjiawei2024@iscas.ac.cn">chenjiawei2024@iscas.ac.cn</a> <br></p>
+                        </td>
+                    </tr>
+                </table>
+                <!-- Intro End -->
+
+                <!-- News Begin -->
+                <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+                    <tr>
+                        <td>
+                            <heading>News</heading>
+                        </td>
+                    </tr>
+                </table>
+                <table width="100%" align="center" border="0" cellpadding="10" style="table-layout:fixed;">
+                    <colgroup>
+                        <col span="1" style="width: 23%;">
+                        <col span="1" style="width: 77%;">
+                    </colgroup>
+                    <tr>
+                        <td valign="center"> 05/04/2023 </td>
+                        <td valign="center">
+                            Our paper got accepted to <a href="https://2023.aclweb.org/">ACL 2023</a>.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="center"> 02/25/2022 </td>
+                        <td valign="center">
+                            Our paper got accepted to <a href="https://www.2022.aclweb.org/">ACL 2022</a>.
+                        </td>
+                    </tr>
+                    <!-- <tr>
+             <td valign="center"> 08/01/2020 </td>
+             <td valign="center" style="color:#E9623F">
+                   <strong>I'm actively looking for a security or deep learning internship for 2021 summer!</strong>
+             </td>
+           </tr> -->
+                    <!-- <tr>
+             <td valign="center">
+               06/18/2020
+             </td>
+             <td valign="center">
+                   Submitted my first paper to USENIX Security 2021! <br>
+                   Thanks a lot to my advisor and collaborators!
+                   <li><strong>07/2019</strong>: &nbsp; Our VirusTotal reliability paper got accepted to IMC 2019.</li>
+             </td>
+           </tr> -->
+                </table>
+                <!-- News End -->
+
+                <!-- Publications Begin -->
+                <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+                    <tr>
+                        <td>
+                            <heading>Publications</heading>
+                            <hr style="height:2px; visibility:hidden;" />
+                            <heading2>Conference Papers</heading2>
+                        </td>
+                    </tr>
+                </table>
+                <table width="100%" align="center" border="0" cellpadding="12" style="table-layout:fixed;">
+                    <!-- <colgroup>
+            <col span="1" style="width: 23%;">
+            <col span="1" style="width: 77%;">
+          </colgroup> -->
+                    <td>
+                        <subheading>2023</subheading>
+                    </td>
+                    <tr>
+                        <td valign="center">
+                            <papertitle>Learning In-context Learning for Named Entity Recognition</papertitle>
+                            <br>
+                            <span class="underline">Jiawei Chen</span>, Yaojie Lu, Hongyu Lin, Jie Lou, Wei Jia, Dai Dai, Hua Wu, Boxi Cao, Xianpei Han, Le Sun
+                            <br>
+                            <i>Proceedings of the 61th Annual Meeting of the Association for Computational Linguistics (ACL 2023)</i>
+                            <br>
+                            <a href="https://aclanthology.org/2023.acl-long.764/">Paper</a> /
+                            <a href="https://github.com/chen700564/metaner-icl">Code</a> /
+                            <a href="data/metaner_slides.pdf">Slides</a> /
+                            <a href="data/metaner_poster.pdf">Poster</a>
+                        </td>
+                    </tr>
+                    <td>
+                        <subheading>2022</subheading>
+                    </td>
+                    <tr>
+                        <td valign="center">
+                            <papertitle>Few-shot Named Entity Recognition with Self-describing Networks</papertitle>
+                            <br>
+                            <span class="underline">Jiawei Chen</span>, Qing Liu, Hongyu Lin, Xianpei Han, Le Sun
+                            <br>
+                            <i>Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (ACL 2022)</i>
+                            <br>
+                            <a href="https://aclanthology.org/2022.acl-long.392">Paper</a> /
+                            <a href="https://github.com/chen700564/sdnet">Code</a> /
+                            <a href="data/sdnet_slides.pdf">Slides</a> /
+                            <a href="data/sdnet_poster.pdf">Poster</a>
+                        </td>
+                    </tr>
+
+
+                    <td>
+                        <subheading>2021</subheading>
+                    </td>
+
+                    <tr>
+                        <td valign="center">
+                            <papertitle>Honey or Poison? Solving the Trigger Curse in Few-shot Event Detection via Causal Intervention</papertitle>
+                            <br>
+                            <span class="underline">Jiawei Chen</span>, Hongyu Lin, Xianpei Han, Le Sun
+                            <br>
+                            <i>Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP 2021)</i>
+                            <br>
+                            <a href="https://aclanthology.org/2021.emnlp-main.637/" target="_blank">Paper</a> /
+                            <a href="https://github.com/chen700564/causalFSED" target="_blank">Code</a> /
+                            <a href="data/causalFSED_slides.pdf" target="_blank">Slides</a> /
+                            <a href="data/causalFSED_poster.pdf" target="_blank">Poster</a>
+                            <!-- <span class="tldr">TL;DR:  </span> -->
+                        </td>
+                    </tr>
+
+                </table>
+
+                <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+                    <tr>
+                        <td>
+                            <hr style="height:2px; visibility:hidden;" />
+                            <heading2>Preprints</heading2>
+                        </td>
+                    </tr>
+                </table>
+                <table width="100%" align="center" border="0" cellpadding="12" style="table-layout:fixed;">
+                    <!-- <colgroup>
+           <col span="1" style="width: 23%;">
+           <col span="1" style="width: 77%;">
+         </colgroup> -->
+                    <td>
+                        <subheading>2023</subheading>
+                    </td>
+                    <tr>
+                        <td valign="center">
+                            <papertitle>Benchmarking Large Language Models in Retrieval-Augmented Generation</papertitle>
+                            <br>
+                            <span class="underline">Jiawei Chen</span>, Hongyu Lin, Xianpei Han, Le Sun
+                            <br>
+                            <i>arXiv preprint arXiv:2309.01431 (2023)</i>
+                            <br>
+                            <a href="https://arxiv.org/abs/2309.01431" target="_blank">Preprint</a> /
+                            <a href="https://github.com/chen700564/RGB" target="_blank">Code</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="center">
+                            <papertitle>Retentive or Forgetful? Diving into the Knowledge Memorizing Mechanism of Language Models</papertitle>
+                            <br> Boxi Cao, Qiaoyu Tang, Hongyu Lin, Xianpei Han, <span class="underline">Jiawei Chen</span>, Tianshu Wang, Le Sun
+                            <br>
+                            <i>arXiv preprint arXiv:2305.09144 (2023)</i>
+                            <br>
+                            <a href="https://arxiv.org/abs/2305.09144" target="_blank">Preprint</a>
+                        </td>
+                    </tr>
+
+                </table>
+                <!-- Publications End -->
+
+                <!-- Education Begin -->
+                <table width="100%" align="center" border="0" cellspacing="0" cellpadding="6">
+                    <tr>
+                        <td>
+                            <heading>Education</heading>
+                        </td>
+                    </tr>
+                </table>
+                <table width="100%" align="center" border="0" cellpadding="6" style="table-layout:fixed;">
+                    <colgroup>
+                        <col span="1" style="width: 23%;">
+                        <col span="1" style="width: 77%;">
+                    </colgroup>
+                    <tr>
+                        <td valign="center"> 2024-Present </td>
+                        <td>
+                            Master in Software Engineering
+                            <br>
+                            <span>Institute of Software, University of Chinese Academy of Sciences</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="center"> 2020-2024 </td>
+                        <td>
+                            B.S. in Computer Science and Technology
+                            <br>
+                            <span>School of Information Science and Technology, Hangzhou Normal University of China</span>
+                        </td>
+                    </tr>
+                </table>
+                <!-- Preprints End -->
+
+                <!-- Internship Begin -->
+                <table width="100%" align="center" border="0" cellspacing="0" cellpadding="6">
+                    <tr>
+                        <td>
+                            <heading>Internship</heading>
+                        </td>
+                    </tr>
+                </table>
+                <table width="100%" align="center" border="0" cellpadding="6" style="table-layout:fixed;">
+                    <colgroup>
+                        <col span="1" style="width: 23%;">
+                        <col span="1" style="width: 77%;">
+                    </colgroup>
+                    <tr>
+                        <td valign="center">
+                            <span>10/2023-Present</span>
+                        </td>
+                        <td valign="center">
+                            <a href="http://www.icip.org.cn/zh/homepage/" target="_blank">Chinese Information Processing Laboratory</a>, Beijing, China
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="center">
+                            <span>07/2022-03/2023</span>
+                        </td>
+                        <td valign="center">
+                            <a href="https://ihealth.hznu.edu.cn/" target="_blank">Engineering Research Center of Health Management System</a>, Hangzhou, China
+                        </td>
+                    </tr>
+                </table>
+                <!-- Internship End -->
+
+                <!-- Awards End -->
+
+                <!-- Awards Begin -->
+                <table width="100%" align="center" border="0" cellspacing="0" cellpadding="6">
+                    <tr>
+                        <td>
+                            <heading>Awards</heading>
+                        </td>
+                    </tr>
+                </table>
+                <table width="100%" align="center" border="0" cellpadding="6" style="table-layout:fixed;">
+                    <colgroup>
+                        <col span="1" style="width: 23%;">
+                        <col span="1" style="width: 77%;">
+                    </colgroup>
+                    <!-- <tr>
+                        <td valign="center"> 2024, 2025 </td>
+                        <td>
+                            <span> Merit Student of University of Chinese Academy of Sciences</span>
+                        </td>
+                    </tr> -->
+
+                    <tr>
+                        <td valign="center"> 2024.06 </td>
+                        <td>
+                            <span> Outstanding undergraduate graduation thesis, HZNU</span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td valign="center"> 2024.06 </td>
+                        <td>
+                            <span> Outstanding Graduates of Zhejiang Province</span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td valign="center"> 2023.10 </td>
+                        <td>
+                            <span> National Scholarship of China</span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td valign="center"> 2023.05 </td>
+                        <td>
+                            <span>Ma Yun Youth Leader Scholarship, Ma Yun Education Foundation</span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td valign="center"> 2023.05 </td>
+                        <td>
+                            <span>Top 10 College Students of HZNU</span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td valign="center"> 2022.12 </td>
+                        <td>
+                            <span>Government Scholarship of Zhejiang Province</span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td valign="center"> 2022, 2023 </td>
+                        <td>
+                            <span> First-class Scholarship & Merit Student & Outstanding Student Leader of HZNU</span>
+                        </td>
+                    </tr>
+                </table>
+                <!-- Awards End -->
+
+                <br>
+
+                <table width="100%" align="center" border="0" cellpadding="6">
+                    <tr>
+                        <td width="100%" valign="center">
+                            <p class="footer">
+                                Design: <a href="https://jonbarron.info/" target="_blank" style="color: #777; font-size: 14px;">Jon Barron </a> and
+                                <a href="https://liminyang.web.illinois.edu/" target="_blank" style="color: #777; font-size: 14px;">Limin Yang</a> <br> Last updated:
+                                <script>
+                                    t = new Date(document.lastModified).toLocaleDateString()
+                                    document.write(t);
+                                </script>
+                                &nbsp;&nbsp;
+                                <span id="busuanzi_container_site_pv">#Visit: <span id="busuanzi_value_site_pv"></span> (2023/11/05~)</span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
